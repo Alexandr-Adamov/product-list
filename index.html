@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="maincontent">
+            <ul id="parentElement" class="card__list"></ul>
+        </div>
+        <div id="order-modal" class="modal">
+            <div class="form__container">
+                <form action="" id="order-form" class="form">
+                    <div class="form__content">
+                        <input placeholder="Ваше имя" required id="user__name" name="user-name" type="text"
+                            class="form__input">
+                        <input placeholder="Ваш номер телефона" required id="user__phone" name="house-building"
+                            type="text" class="form__input">
+                        <input placeholder="Ваш email адрес" required id="user__email" name="user-email" type="email"
+                            class="form__input">
+                        <input placeholder="Название товара" required id="product__name" name="product__name"
+                            type="text" class="form__input">
+                    </div>
+                    <div class="form__btns">
+                        <button type="submit" class="form__btn_submit">Заказать</button>
+                        <button id="test" type="reset" class="form__btn_reset">Очистить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="pay__message__container">
+                <p>ДАННЫЕ УСПЕШНО ОТПРАВЛЕНЫ</p>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+
+</body>
+
+</html>
